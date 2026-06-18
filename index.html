@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevPortfolio | Portfólio de Desenvolvedor de Software</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <nav class="topbar__nav">
+      <div class="topbar__logo">DevPortfolio</div>
+      <div class="topbar__links">
+        <a href="#hero" class="topbar__link topbar__link--active">Início</a>
+        <a href="#about" class="topbar__link">Sobre</a>
+        <a href="#projects" class="topbar__link">Projetos</a>
+        <a href="#contact" class="topbar__link">Contato</a>
+      </div>
+      <button class="topbar__cta">Currículo</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero__bg-glow"></div>
+      <div class="hero__content">
+        <h1 class="hero__title">
+          Kaio Vieira <span class="hero__highlight">Nunes</span> 
+        </h1>
+        <p class="hero__subtitle">
+          Desenvolvedor full-stack de alta performance focado em arquitetura limpa, sistemas escaláveis e interfaces de usuário intuitivas.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary btn--lg">Ver Trabalhos</a>
+          <a href="#contact" class="btn btn--ghost btn--lg">Entre em Contato</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about__grid">
+        <div class="about__text">
+          <h2 class="section-title">Engenharia com propósito.</h2>
+          <div class="about__paragraphs">
+            <p>
+            Sou estudante de Engenharia da Computação na Universidade Federal do Ceará (UFC) e apaixonado por tecnologia, com interesse em desenvolver soluções que unam eficiência, inovação e boa experiência para o usuário. Atualmente, atuo como Desenvolvedor Front-end na Loading Júnior, empresa júnior da UFC, onde venho adquirindo experiência profissional trabalhando em equipe, participando de projetos reais e aplicando boas práticas de desenvolvimento.            </p>
+            <p>
+            Ao longo da minha trajetória, participei de projetos utilizando React, Next.js e Tailwind CSS, além de ter utilizado a plataforma Wix no desenvolvimento de soluções para clientes da Loading Júnior. Também possuo experiência com HTML, CSS, JavaScript, SQL e MySQL, além de já ter tido contato com linguagens como C, Java e Python. Minha vivência tanto em desenvolvimento web quanto em projetos envolvendo hardware e Arduino me proporciona uma visão ampla da computação, permitindo compreender desde os fundamentos da programação até a construção de aplicações modernas e escaláveis.
+            </p>
+          </div>
+        </div>
+        <div class="glass-card about__card">
+          <h3 class="about__card-title">Tecnologias Principais</h3>
+          <div class="about__tech-grid">
+            <div class="about__tech-item">
+              <span class="material-symbols-outlined tech-icon">data_object</span>
+              <span>Python</span>
+            </div>
+            <div class="about__tech-item">
+              <span class="material-symbols-outlined tech-icon">code</span>
+              <span>Java</span>
+            </div>
+            <div class="about__tech-item">
+              <span class="material-symbols-outlined tech-icon">layers</span>
+              <span>React / Next.js</span>
+            </div>
+            <div class="about__tech-item">
+              <span class="material-symbols-outlined tech-icon">style</span>
+              <span>Tailwind CSS</span>
+            </div>
+            <div class="about__tech-item">
+              <span class="material-symbols-outlined tech-icon">terminal</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="about__tech-item">
+              <span class="material-symbols-outlined tech-icon">code</span>
+              <span>HTML &amp; CSS</span>
+            </div>
+            <div class="about__tech-item">
+              <span class="material-symbols-outlined tech-icon">terminal</span>
+              <span>C</span>
+            </div>
+            <div class="about__tech-item">
+              <span class="material-symbols-outlined tech-icon">database</span>
+              <span>SQL</span>
+            </div>
+            <div class="about__tech-item">
+              <span class="material-symbols-outlined tech-icon">storage</span>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="projects__header">
+        <div>
+          <h2 class="section-title">Trabalhos Selecionados</h2>
+          <p class="projects__subtitle">Uma coleção de sistemas e interfaces construídos com foco.</p>
+        </div>
+        <div class="projects__scroll-hint">ROLE PARA EXPLORAR →</div>
+      </div>
+
+      <div class="projects__grid">
+        <article class="project-card">
+          <div class="project-card__media">
+            <img class="project-card__image" src="img/Loading Jr.png" alt="Loading JR">
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">React</span>
+              <span class="tag">Tailwind</span>
+            </div>
+            <h3 class="project-card__title">Loading JR — Site</h3>
+            <p class="project-card__desc">Manutenção e desenvolvimento do site institucional da Loading Júnior, empresa júnior da UFC, utilizando React, Next.js e Tailwind CSS.</p>
+            <a href="https://loadingjr.com.br/" target="_blank" rel="noopener noreferrer" class="project-card__link">
+              Ver Projeto
+              <span class="material-symbols-outlined">arrow_outward</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__media">
+            <img class="project-card__image" src="img/rolemberg.png" alt="Roolemberg Eco">
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="tag">Wix</span>
+            </div>
+            <h3 class="project-card__title">Roolemberg Eco — Site</h3>
+            <p class="project-card__desc">Desenvolvimento do site institucional para a Roolemberg Eco utilizando a plataforma Wix, com foco em presença digital e usabilidade.</p>
+            <a href="https://l.instagram.com/?u=http%3A%2F%2Fwww.rollemberg.eco.br%2F%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGn624sTJXDUaPv_uO0jg6A-OfHErOaMDpOJYwLC0568UaHsdv6wLqN7hK2eKk_aem_Rwf_kazKgn19yN1ifrQjbQ&e=AUAxRX-S8zNAvdrYimtTYuxXTzpRLRc7jbwBndIDsPC2XwHarGIIUBWbqcDDUDL_FU83iD8RXt_sEmVcTnsqM_wZuqaSXdBTGkJ-k1S0wnL48HTXWER1aJfu57luDaVmJjJKc6Q" target="_blank" rel="noopener noreferrer" class="project-card__link">
+              Ver Projeto
+              <span class="material-symbols-outlined">arrow_outward</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__media">
+            <img class="project-card__image" src="img/Cine sol.png" alt="Cine Sol">
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">React</span>
+              <span class="tag">Tailwind</span>
+            </div>
+            <h3 class="project-card__title">Cine Sol — Front-end</h3>
+            <p class="project-card__desc">Front-end de uma plataforma de cinema com catálogo de filmes, sessões e integração com APIs, construído com React, Next.js e Tailwind CSS.</p>
+            <a href="#" class="project-card__link">
+              Ver Projeto
+              <span class="material-symbols-outlined">arrow_outward</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__media">
+            <img class="project-card__image" src="img/Melina.png" alt="Melina">
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="tag">Python</span>
+            </div>
+            <h3 class="project-card__title">Melina — Instalador de Músicas</h3>
+            <p class="project-card__desc">Ferramenta em Python para download e instalação de músicas, automatizando a busca e organização de arquivos de áudio.</p>
+            <a href="#" class="project-card__link">
+              Ver Projeto
+              <span class="material-symbols-outlined">arrow_outward</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact__grid">
+        <div class="contact__info">
+          <h2 class="section-title">Vamos construir algo <span class="hero__highlight">extraordinário</span>.</h2>
+          <p class="contact__text">Disponível para oportunidades freelance selecionadas e projetos de engenharia colaborativos.</p>
+          <div class="contact__details">
+            <div class="contact__detail">
+              <p class="contact__detail-label">Localização</p>
+              <p class="contact__detail-value">Fortaleza, CE</p>
+            </div>
+            <div class="contact__detail">
+              <p class="contact__detail-label">Social</p>
+              <div class="contact__social">
+                <a href="#" class="contact__social-link">
+                  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">alternate_email</span>
+                </a>
+                <a href="#" class="contact__social-link">
+                  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">code</span>
+                </a>
+                <a href="#" class="contact__social-link">
+                  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">public</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact__form-wrap">
+          <form class="glass-card contact__form" id="contactForm">
+            <div class="contact__form-row">
+              <input class="contact__input" type="text" name="name" placeholder="Nome" required>
+              <input class="contact__input" type="email" name="email" placeholder="E-mail" required>
+            </div>
+            <textarea class="contact__textarea" name="message" placeholder="Mensagem" required rows="5"></textarea>
+            <button class="btn btn--primary btn--full" type="submit">Enviar Mensagem</button>
+            <div id="formStatus" style="display:none; text-align:center; font-size:14px;"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__logo">DevPortfolio</div>
+      <div class="footer__copy">© 2025 DevPortfolio. Construído com precisão.</div>
+      <div class="footer__links">
+        <a href="#" class="footer__link">GitHub</a>
+        <a href="#" class="footer__link">LinkedIn</a>
+        <a href="#" class="footer__link">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
